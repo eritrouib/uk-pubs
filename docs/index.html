@@ -122,7 +122,7 @@ table.data td:first-child,table.data th:first-child{text-align:left}
   <div class="hero-text">
     <div class="kicker">A data story about pubs</div>
     <h1>Last orders?</h1>
-    <p class="dek">There's no coastline on this map, no roads and no towns. Every dot is a pub or a bar. You can still tell where you are.</p>
+    <p class="dek">There's no coastline, no roads and no towns on this map. Every dot is a pub or a bar, and you can still recognise the UK.</p>
   </div>
   <div class="hero-count"><b id="heroN">38,022</b><span>pubs and bars, one dot each</span></div>
   <div class="scrollhint">Scroll for the story ↓</div>
@@ -131,32 +131,32 @@ table.data td:first-child,table.data th:first-child{text-align:left}
 <main>
 <section class="wrap" id="s-draw">
   <h2><small>1 · The map</small>Can you draw the UK with pubs?</h2>
-  <p>Yes, mostly. Every premises that serves food or drink is registered with the council for food hygiene inspections, and the Food Standards Agency publishes the whole register. I took every place registered as a <strong>pub, bar or nightclub</strong>, sorted out the social clubs, bowls clubs and Royal British Legions, and put a dot on each one.</p>
-  <p>The UK comes out surprisingly well. The cities glow, the valleys of South Wales show up as little strings of lights, and the Pennines, Dartmoor and the Cambrian Mountains appear as dark holes. The Scottish Highlands look almost empty. That's partly true and partly paperwork, which I come back to later.</p>
+  <p>Every place that serves food or drink has to register with the council for food hygiene inspections, and the Food Standards Agency publishes the whole register. I downloaded it, picked out everything registered as a <strong>pub, bar or nightclub</strong>, separated the social clubs, bowls clubs and Royal British Legions, and visualised the rest as dots. I didn't add any coastline, roads or towns.</p>
+  <p>The UK still shows up really well. You can see the cities glowing, the valleys of South Wales as little lines of lights, and the Pennines, Dartmoor and the Cambrian Mountains as dark gaps. The Scottish Highlands look almost empty, but that's partly because of how the pubs are registered there. More on that later.</p>
   <div class="stats" id="stats1"></div>
 </section>
 
 <section class="wrap" id="s-orders">
   <h2><small>2 · Before COVID</small>The real last orders came in 2008</h2>
-  <p>Everyone remembers the pubs shut by lockdown. The numbers say the big closing time came ten years earlier. ONS counts pub and bar workplaces that employ staff. In 2001 there were <strong>52,500</strong> in the UK. By 2019, before anyone had heard of furlough, there were <strong id="t19">39,130</strong>. A quarter of the country's pubs went in the years when the smoking ban, the financial crash and supermarket beer all arrived at once.</p>
+  <p>Then I wondered if COVID had an impact on the number of pubs. I looked at the ONS data, which counts pub and bar workplaces that employ staff, and found out that the big drop happened ten years earlier. In 2001 there were <strong>52,500</strong> pubs and bars in the UK. By 2019, before COVID, there were <strong id="t19">39,130</strong>. That's a quarter of them gone, in the years of the smoking ban, the financial crash and cheap supermarket beer.</p>
   <figure>
     <div class="legend" id="legNat"></div>
     <svg class="chart" id="chartNat" viewBox="0 0 680 300" role="img" aria-label="Line chart of UK pubs and bars, 2001 to 2024"></svg>
     <figcaption>Pub and bar workplaces with at least one employee, UK. ONS, Inter-Departmental Business Register, rounded to the nearest 5. In 2015 the register widened its coverage, which may add a little to later years.</figcaption>
   </figure>
-  <p>Between 2008 and 2013 the UK lost more than <strong>9,000</strong> pubs, about five a day for five years. From 2019 to 2024, across lockdowns, energy bills and the price of a pint, the count fell by <strong id="t1924">1,260</strong>. Grants and furlough kept many doors registered, if not always open, but the COVID dip still looks like a hiccup next to 2009.</p>
+  <p>Between 2008 and 2013 the UK lost more than <strong>9,000</strong> pubs, about five a day for five years. From 2019 to 2024, with the lockdowns, the energy bills and the price of a pint, it lost <strong id="t1924">1,260</strong>. Grants and furlough probably helped many pubs stay registered, even when they were closed. Still, the COVID dip is small next to 2009.</p>
   <figure>
     <div class="legend" id="legSize"></div>
     <svg class="chart" id="chartSize" viewBox="0 0 680 280" role="img" aria-label="Line chart of small and large pubs, 2001 to 2024"></svg>
     <figcaption>UK pubs and bars by number of employees. ONS.</figcaption>
   </figure>
-  <p>The bigger story is the size of the pubs. Small pubs, with fewer than ten staff, fell from <strong>38,830</strong> to <strong id="tSmall">21,645</strong>. Big ones went <em>up</em>, from 13,675 to 16,225. We didn't lose the pub. We lost the little one on the corner and gained a large one with a laminated menu and a two-for-one on burgers.</p>
+  <p>When I split the pubs by size, I found something I didn't expect. Small pubs, with fewer than ten staff, fell from <strong>38,830</strong> to <strong id="tSmall">21,645</strong>. The big ones actually went <em>up</em>, from 13,675 to 16,225. So it's mostly the little pub on the corner that we lost, while the big ones with the laminated menus and two-for-one burgers grew.</p>
 </section>
 
 <section class="wrap" id="s-where">
   <h2><small>3 · 2001 to 2019</small>Where the taps ran dry</h2>
-  <p>ONS also splits the count by council, from 2001 to 2019. Between those two years, <strong id="shareLost">93%</strong> of UK councils lost pubs. London's outer boroughs lost the most: Barking and Dagenham went from 45 pubs to 15, which is two out of every three. Newham, Luton, Croydon and the East Lancashire towns of Burnley and Hyndburn all lost about half.</p>
-  <p>A handful of places went the other way, mostly where students, tourists or new bars arrived: Hackney, Newcastle, Blackpool, York and Brighton. The Highland figure also rose, which is a good clue that its almost-empty dot map is a paperwork problem.</p>
+  <p>The ONS data also goes down to council level, from 2001 to 2019. In that time <strong id="shareLost">93%</strong> of UK councils lost pubs. London's outer boroughs lost the most. Barking and Dagenham went from 45 pubs to 15, so two out of every three closed. Newham, Luton, Croydon, Burnley and Hyndburn all lost about half.</p>
+  <p>Only a few places gained pubs, mostly places with lots of students, tourists or new bars: Hackney, Newcastle, Blackpool, York and Brighton. The Highlands also gained, which shows that the almost-empty dot map there is about how pubs are registered.</p>
   <figure>
     <div class="legend" id="legChg"></div>
     <svg class="chart" id="chartChg" viewBox="0 0 680 520" role="img" aria-label="Bar chart of councils with the largest losses and gains in pubs, 2001 to 2019"></svg>
@@ -167,32 +167,32 @@ table.data td:first-child,table.data th:first-child{text-align:left}
 
 <section class="wrap" id="s-names">
   <h2><small>4 · Pub names</small>One Red Lion, two Red Lions…</h2>
-  <p>There are <strong id="nUnique">17,434</strong> different pub names in the register, and the UK still can't stop calling its pubs the same five things. The Red Lion wins, as it has for centuries: about one pub in every hundred. It's followed by the Crown, the Royal Oak (named for the tree Charles II hid in after losing a battle, which is a very British thing to name a pub after) and the White Hart.</p>
+  <p>The fun part was going through the pub names. There are <strong id="nUnique">17,434</strong> different names in the register, but the same few keep coming up. The Red Lion is number one, about one pub in every hundred. Then come the Crown, the Royal Oak and the White Hart. The Royal Oak is named after the tree Charles II hid in after losing a battle, which is a very British thing to name a pub after.</p>
   <figure>
     <svg class="chart" id="chartNames" viewBox="0 0 680 470" role="img" aria-label="Bar chart of the most common pub names"></svg>
     <figcaption>Pubs registered with a name. "The", "Inn", "Hotel" and "Tavern" are ignored, so the Swan and the Swan Inn count as one.</figcaption>
   </figure>
   <div class="stats" id="statsGroups"></div>
-  <p>Animals beat royalty, which feels right. The Railway is sixth, a reminder that a lot of the country's pubs were built for people getting off trains.</p>
+  <p>There are more animals than royals in pub names. The Railway is sixth, because a lot of pubs were built next to stations for people getting off the train.</p>
 </section>
 
 <section class="wrap" id="s-streets">
   <h2><small>5 · Pub crawls</small>Streets that are basically a pub crawl</h2>
-  <p>Which streets have the most pubs and bars? I grouped every address by street and council, then threw out any street where the pubs are spread over more than 1.5 km, because that's not a crawl, that's a hike. Swansea's Wind Street fits 13 bars into 186 metres. That's one every 15 metres, so you can do the whole thing without finishing a pint.</p>
+  <p>Next I looked for the streets with the most pubs and bars. I grouped the addresses by street and council, and left out streets where the pubs are spread over more than 1.5 km, because that's more of a hike than a pub crawl. The winner for me is Swansea's Wind Street, with 13 bars in 186 metres. That's one every 15 metres.</p>
   <ol class="streets" id="streets"></ol>
 </section>
 
 <section class="wrap" id="s-nowhere">
   <h2><small>6 · The middle of nowhere</small>How far can you get from a pint?</h2>
-  <p>I laid a 1 km grid over the land, measured from every square to the nearest pub, then zoomed in on the worst spots at 100 m. In England the answer is <strong>15.7 km</strong>, in Kielder Forest in Northumberland. Your nearest pint there is the Black Cock Inn in Falstone. In Wales it's <strong>14 km</strong>, high in the Cambrian Mountains, where the nearest pub is the Trout Inn at Beulah.</p>
+  <p>I also wanted to find the place furthest from a pub. I put a 1 km grid over the land, measured the distance from every square to the nearest pub, and then checked the most remote spots again at 100 m. In England it's <strong>15.7 km</strong>, in Kielder Forest in Northumberland, and the nearest pub is the Black Cock Inn in Falstone. In Wales it's <strong>14 km</strong>, up in the Cambrian Mountains, and the nearest pub is the Trout Inn at Beulah.</p>
   <div class="cards" id="nowhere"></div>
-  <div class="note"><strong>Why there's no Scottish answer.</strong> The Highland Council registers most of its pubs as hotels, because in much of the Highlands the pub <em>is</em> the hotel bar. Only 59 Highland premises are registered as pubs, against more than 750 hotels. Counting every hotel would add B&amp;Bs with no bar at all, so for Scotland this measure would mostly tell you how the council files its paperwork. For Northern Ireland the furthest point lands right on the border, where the nearest pub is probably in Donegal and outside this data.</div>
+  <div class="note"><strong>Why Scotland isn't here.</strong> The Highland Council registers most of its pubs as hotels, because in a lot of the Highlands the pub <em>is</em> the hotel bar. Only 59 places in the Highlands are registered as pubs, and more than 750 as hotels. If I counted all the hotels, I'd also be counting B&amp;Bs with no bar, so I left Scotland out of this one. I left out Northern Ireland too, because its furthest point is right on the border, and the nearest pub is probably in Donegal, which isn't in this data.</div>
   <p>About <strong id="over5">5%</strong> of England is more than 5 km from a pub. In Wales it's <strong id="over5w">18%</strong>.</p>
 </section>
 
 <section class="wrap" id="s-postcode">
   <h2><small>7 · Your turn</small>How pubby is your postcode?</h2>
-  <p>Type a UK postcode. I use the middle of its postcode sector (for example, all of SW1A 1), count the pubs and bars within 800 metres, roughly a ten-minute walk, and compare that with every postcode in the UK.</p>
+  <p>Type in a UK postcode. I take the middle of its postcode sector (for example, all of SW1A 1), count the pubs and bars within 800 metres, which is about a ten-minute walk, and compare it with every other postcode in the UK.</p>
   <div class="pc">
     <form id="pcForm" autocomplete="off"><label class="sr" for="pcIn">Postcode</label><input id="pcIn" placeholder="e.g. KT1 1EU" maxlength="9"><button>Check</button></form>
     <div class="err" id="pcErr" role="alert"></div>
@@ -203,7 +203,7 @@ table.data td:first-child,table.data th:first-child{text-align:left}
 <section class="wide" id="s-explore">
   <div class="wrap" style="padding:0">
     <h2><small>8 · Explore</small>Every pub, every council</h2>
-    <p>Zoom in to find your local. Click a council to see how its pubs changed from 2001 to 2019 and how many it has per person today.</p>
+    <p>Zoom in to find your local. Click on a council to see how its pubs changed from 2001 to 2019, and how many people there are per pub today.</p>
   </div>
   <div class="explorer">
     <div class="panel">
@@ -231,8 +231,8 @@ table.data td:first-child,table.data th:first-child{text-align:left}
   <h3>Data and method</h3>
   <p><strong>Pubs today:</strong> Food Standards Agency food hygiene rating data, downloaded October 2026, all 363 council files. I kept premises registered as "Pub/bar/nightclub", plus restaurants, hotels and other caterers whose names clearly say pub (Inn, Arms, Tavern, Bar…), which recovers pubs that councils file under another type. Names were then sorted into pubs, bars and clubs with simple word rules. About 7% of pubs have no location in the register and are left off the map. Some councils use the types differently, the Highlands most of all.</p>
   <p><strong>2001 to 2024:</strong> ONS, <a href="https://www.ons.gov.uk/businessindustryandtrade/business/activitysizeandlocation/datasets/publichousesandbarsbysizelocalauthoritiesoftheuk2001to2019">Public houses and bars by local authority, 2001 to 2019</a>, and <a href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/adhocs/2926onslocalpublichousesandbarslondonboroughs2001to2024">Public houses and bars, London boroughs, 2001 to 2024</a> (which also gives UK totals). ONS counts workplaces with employees, so it is not the same thing as the FSA register, and I never subtract one from the other. Nationally they agree well (37,870 for ONS in 2024, 38,022 in the register today), but council by council they can differ a lot. Council figures are moved onto 2025 boundaries by adding up merged councils.</p>
-  <p><strong>Population:</strong> ONS mid-2025 population estimates. <strong>Boundaries:</strong> ONS, via ONSvisual. <strong>Postcodes:</strong> postcode sector centres worked out from the FSA register itself. <strong>Basemap:</strong> © OpenStreetMap contributors © CARTO.</p>
-  <p>Contains public sector information licensed under the Open Government Licence v3.0. Made by Eriola Trungu Impersimi · <a href="https://etymo.co.uk">etymo.co.uk</a> · If this cost you less than a pint and you enjoyed it, <a href="https://buymeacoffee.com/etymo">buy me a coffee</a>. @ET</p>
+  <p><strong>Population:</strong> ONS mid-2025 population estimates. <strong>Boundaries:</strong> ONS, via ONSvisual. <strong>Postcodes:</strong> postcode sector centres worked out from the FSA register itself. <strong>Basemap:</strong> Esri World Dark Gray Canvas (© Esri, HERE, Garmin, © OpenStreetMap contributors).</p>
+  <p>Contains public sector information licensed under the Open Government Licence v3.0. Made by Eriola Trungu Impersimi · <a href="https://etymo.co.uk">etymo.co.uk</a> · If you enjoyed it, you can <a href="https://buymeacoffee.com/etymo">buy me a coffee</a>. @ET</p>
 </footer>
 
 <div class="tip" id="tip"></div>
@@ -453,8 +453,10 @@ document.getElementById('pcForm').addEventListener('submit', e => {
 
 /* ---------- map ---------- */
 const map = L.map('map', {preferCanvas: true, zoomSnap: 0.5, minZoom: 5, maxZoom: 18}).setView([54.6, -3.2], 5.5);
-L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {subdomains: 'abcd', maxZoom: 19,
-  attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors © <a href="https://carto.com/attributions">CARTO</a> · Pubs: FSA · Councils: ONS'}).addTo(map);
+L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}', {maxZoom: 16, maxNativeZoom: 16,
+  attribution: 'Basemap © Esri, HERE, Garmin, © OpenStreetMap contributors · Pubs: FSA · Councils: ONS'}).addTo(map);
+map.createPane('labels'); map.getPane('labels').style.zIndex = 450; map.getPane('labels').style.pointerEvents = 'none';
+L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}', {maxZoom: 18, maxNativeZoom: 16, pane: 'labels'}).addTo(map);
 map.createPane('councils'); map.getPane('councils').style.zIndex = 350;
 const SEQ = ['--seq-1', '--seq-2', '--seq-3', '--seq-4', '--seq-5'].map(css);
 const PPB = [4000, 2500, 1700, 1200]; // people per pub breaks: more people per pub = darker

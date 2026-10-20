@@ -14,7 +14,7 @@ Can you draw the UK with nothing but pubs? A data story about 38,000 pubs and ba
 | Mid-2025 population estimates | [ONS](https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland) | People per pub |
 | Council boundaries | [ONSvisual/topojson_boundaries](https://github.com/ONSvisual/topojson_boundaries) | Maps |
 
-All under the Open Government Licence v3.0. Basemap © OpenStreetMap contributors © CARTO.
+All under the Open Government Licence v3.0. Basemap © Esri, HERE, Garmin, © OpenStreetMap contributors.
 
 ## Pipeline
 
