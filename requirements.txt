@@ -1,0 +1,8 @@
+pandas
+numpy
+geopandas
+shapely>=2
+pyproj
+scipy
+xlrd
+openpyxl
